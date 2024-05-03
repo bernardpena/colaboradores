@@ -96,7 +96,7 @@ export default function Formulario({ addAlert, setData, data, setDataFilter, dat
 
     return (
         <div className="formulario col-12 col-lg-4">
-            <h3>Agregar Colaborador</h3>
+            <h3><i className="fa-solid fa-user-plus"> </i>  Agregar Colaborador</h3>
 
             <form noValidate onSubmit={(e) => validandoDatos(e)}>
                 <div className="mb-3">
@@ -106,7 +106,7 @@ export default function Formulario({ addAlert, setData, data, setDataFilter, dat
                         type="text"
                         className="form-control"
                         id="inputNombre"
-                        placeholder="Nombre del colaborador"
+                        placeholder="Nombre"
                     />
                 </div>
 
@@ -117,7 +117,7 @@ export default function Formulario({ addAlert, setData, data, setDataFilter, dat
                         type="email"
                         className="form-control"
                         id="inputEmail"
-                        placeholder="Email del colaborador"
+                        placeholder="Email"
                         pattern=".*"
                     />
                 </div>
@@ -129,7 +129,7 @@ export default function Formulario({ addAlert, setData, data, setDataFilter, dat
                         type="number"
                         className="form-control"
                         id="inputEdad"
-                        placeholder="Edad del colaborador"
+                        placeholder="Edad "
                     />
                 </div>
 
@@ -140,7 +140,7 @@ export default function Formulario({ addAlert, setData, data, setDataFilter, dat
                         type="text"
                         className="form-control"
                         id="inputCargo"
-                        placeholder="Cargo del colaborador"
+                        placeholder="Cargo "
                     />
                 </div>
 
@@ -151,12 +151,12 @@ export default function Formulario({ addAlert, setData, data, setDataFilter, dat
                         type="text"
                         className="form-control"
                         id="inputTelefono"
-                        placeholder="Teléfono del colaborador"
+                        placeholder="Teléfono"
                     />
                 </div>
 
                 <div className="d-grid mb-3">
-                    <button type="submit" className="btn">
+                    <button type="submit" className="btn btn-primary">
                         Agregar Colaborador
                     </button>
                 </div>

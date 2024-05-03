@@ -22,7 +22,7 @@ export default function Buscador({ data, dataFilter }) {
                 type="text"
                 name="buscador"
                 id="buscador"
-                placeholder="Busca un colaborador"
+                placeholder="Buscar Colaborador"
                 className="form-control mb-3"
                 onChange={inputHandler}
             />

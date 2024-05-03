@@ -25,7 +25,7 @@ function App() {
 
   return (
     <>
-      <h1 className="my-2"><i className="fa-solid fa-user-group"></i> Lista de Colaboradores</h1>
+      <h1 className="my-2"><i className="fa-solid "></i> Lista de Colaboradores</h1>
       <Buscador
         data={baseColaboradores}
         dataFilter={setColaboradoresFiltrado}
