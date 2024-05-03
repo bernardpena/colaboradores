@@ -1,4 +1,5 @@
 import React from 'react';
+import "./style/Listados.css"
 
 export default function Listados({ data, setData, dataFilter, setDataFilter }) {
 
@@ -30,7 +31,7 @@ export default function Listados({ data, setData, dataFilter, setDataFilter }) {
 
     return (
         <div className="table-responsive table-dark table-striped col-12 col-6 col-3 col-lg-8 mb-2">
-            <table className="table table-dark table-striped col-12 col-6 col-3 col-lg-8 mb-2">
+            <table className="table table-hover col-12 col-6 col-3 col-lg-8 mb-2">
                 <thead>
                     <tr>
                         <th>Nombre</th>

@@ -1,6 +1,5 @@
 
 import './App.css';
-
 import { BaseColaboradores } from './components/BaseColaboradores';
 import Buscador from './components/Buscador';
 import Listados from './components/Listados';
@@ -8,7 +7,7 @@ import Formulario from './components/Formulario';
 import Alerta from './components/Alerta';
 import { useState } from 'react';
 
-function App() {
+export default function App() {
   const [baseColaboradores, setBaseColaboradores] = useState(BaseColaboradores);
   const [colaboradoresFiltrado, setColaboradoresFiltrado] =
     useState(baseColaboradores);
@@ -51,5 +50,4 @@ function App() {
   );
 }
 
-export default App;
 
